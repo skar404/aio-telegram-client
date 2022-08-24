@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "aio-telegram-client"
+version = "0.1.0a0"
+description = "Python aiohttp telegram client "
+authors = ["Denis Malin <denis@malina.page>"]
+license = "MIT License"
+
+readme = "README.md"
+
+homepage = "https://github.com/skar404/aio-clients"
+repository = "https://github.com/skar404/aio-clients"
+documentation = "https://github.com/skar404/aio-clients"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aio-clients = ">=0.1.0-alpha.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
